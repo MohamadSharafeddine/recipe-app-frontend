@@ -9,20 +9,13 @@ import "./styles/utilities.css";
 
 function App() {
   return (
-    <div
-      className="App"
-      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
-    >
-      <BrowserRouter>
-        <NavBar />
-        <div style={{ flexGrow: 1 }}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
