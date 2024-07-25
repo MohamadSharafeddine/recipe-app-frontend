@@ -1,0 +1,19 @@
+.footer {
+  background-color: #ffc107;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer small {
+  font-size: 0.9rem;
+}
